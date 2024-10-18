@@ -50,3 +50,10 @@ GET	/api/statistics	Fetches total sales and sold items for a specified month.
 GET	/api/bar-chart	Provides data for a bar chart representing price ranges.
 GET	/api/pie-chart	Offers data for a pie chart visualizing product categories.
 GET	/api/combined-data	Combines results from multiple endpoints into a single response.
+
+### Environment Variables
+
+To run this application, create a `.env` file in the root directory of the project and use the following template:
+
+Refer to the `.env.example` file for required environment variables and their formats. Make sure to replace the placeholder values with your actual configuration settings.
+
